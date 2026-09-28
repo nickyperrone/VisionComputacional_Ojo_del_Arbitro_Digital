@@ -36,7 +36,7 @@ flowchart TD
 
 ## How to run
 
-1. Upload `partidoArgVsBrasil_h264.mp4` to your Google Drive.
+1. Download the video (see [Video](#video)), convert it to H.264 and upload it to your Google Drive.
 2. Open `Ojo_del_Arbitro_Digital.ipynb` in Google Colab.
 3. Set `VIDEO_PATH` to the video's location in Drive and run all cells.
 
@@ -56,7 +56,9 @@ All thresholds are in the `P` dictionary at the top of the notebook. They were t
 
 ## Video
 
-Argentina vs Brazil. The original download was AV1, which OpenCV can't read, so it was converted to H.264 (720p) with ffmpeg.
+Argentina vs Brazil: https://www.youtube.com/watch?v=Uk9ud7UXJYM&t=24s
+
+The video is not in the repo because of its size. The download was AV1, which OpenCV can't read, so it was converted to H.264 (720p) with ffmpeg.
 
 ## Tests
 
