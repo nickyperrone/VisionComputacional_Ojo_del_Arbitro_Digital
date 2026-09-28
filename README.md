@@ -62,4 +62,4 @@ The video is not in the repo because of its size. The download was AV1, which Op
 
 ## Tests
 
-`tests/` has the output for 30 random frames of the video.
+`tests/test_1` and `tests/test_2` each have the output for 30 random frames of the video (two separate runs).
