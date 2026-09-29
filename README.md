@@ -41,7 +41,7 @@ flowchart TD
 
 1. Download the video (see [Video](#video)), convert it to H.264 and upload it to your Google Drive.
 2. Open `Ojo_del_Arbitro_Digital.ipynb` in Google Colab.
-3. Set `VIDEO_PATH` to the video's location in Drive and run all cells.
+3. The notebook expects the video at `My Drive/Colab Notebooks/partidoArgVsBrasil_h264.mp4`. If you put it somewhere else, change `VIDEO_PATH`. Then run all cells.
 
 Each run saves the result as `result_YYYYMMDD_HHMMSS.png` in the same Drive folder as the video. Set `SEED` to a number to repeat the same frame.
 
